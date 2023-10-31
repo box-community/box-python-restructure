@@ -1,10 +1,11 @@
 attrs==23.1.0
-boxsdk==3.7.1
+boxsdk==3.9.2
 certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==3.1.0
 cryptography==40.0.2
 exceptiongroup==1.1.1
+faker==19.12.0
 idna==3.4
 iniconfig==2.0.0
 packaging==23.1
