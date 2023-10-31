@@ -27,7 +27,7 @@ def demo():
         # If the folder exists, delete it
         for item in client.folder('0').get_items():
             if item.name == 'Human Resources':
-                print(f"Found the folder with id: {item.id}")
+                print(f"Found the human resources folder with id: {item.id}")
                 item.delete()
                 print(f"Deleted the folder with id: {item.id}")
     except BoxAPIException as e:
@@ -36,7 +36,6 @@ def demo():
     try:
         # Create 'Human Resources' folder in the root directory
         hr_folder = client.folder('0').create_subfolder('Human Resources')
-        print(f"Created the 'Human Resources' folder with id: {hr_folder.id}")
         # Read the .env file and replace the PARENT_FOLDER_ID line
         with open(".env", "r") as file:
             lines = file.readlines()

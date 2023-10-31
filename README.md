@@ -5,7 +5,7 @@ width=40%;>
 
 
 # Box Python Folder Restructure
-This sample code will help you jumpstart restructuring a Box folder tree using Python. It goes alongside a [blog post](https://www.test.com). Make sure to check that out for more details. It does not add or alter collaborations. 
+This sample code will help you jumpstart restructuring a Box folder tree using Python. It goes alongside a [blog post](https://medium.com/box-developer-blog/restructuring-the-box-folder-tree-with-python-31aeb7e051da). Make sure to check that out for more details. It does not add or alter collaborations. 
 
 It is highly recommended to test and develop in a Sandbox or non-production environment. It also recommended to the run the script as a user that owns the content. The demo uses an OAuth free user account, but in an enterprise instance with collaborators, results may vary. 
 
@@ -56,7 +56,7 @@ code .
 > Update the CLIENT_ID and CLIENT_SECRET field values in the env file with the Box application client id and client secret you created on the developer console.
 
 ## Running the application 
-The included code will restructure a folder tree as described in the [blog post](https://www.test.com).
+The included code will restructure a folder tree as described in the [blog post](https://medium.com/box-developer-blog/restructuring-the-box-folder-tree-with-python-31aeb7e051da).
 
 You are free to make changes to the main.py file if you wish to change the underlying logic. Just remember, migrating folders with large amounts of data can and will trigger [LFOs](https://support.box.com/hc/en-us/articles/360055677914-Large-File-Operation-Warnings-in-Admin-Console-). You will want to build in error and/or timing logic for any migrations that could cause those.
 
